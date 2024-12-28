@@ -57,7 +57,7 @@ jobs:
 
     - name: Build and push image Aliyun
       run: |
-        YangAliyun123 | docker login --username yangdl --password-stdin crpi-8d2c0nrpt8o2sqx9.cn-shenzhen.personal.cr.aliyuncs.com 
+        YangAliyun123 | docker login --username yangdl --password-stdin  
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
